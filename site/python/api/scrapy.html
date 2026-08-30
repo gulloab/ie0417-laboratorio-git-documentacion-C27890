@@ -1,0 +1,419 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>scrapy package &mdash; scrapy 53eb8d6 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=e179443c"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="scrapy.commands package" href="scrapy.commands.html" />
+    <link rel="prev" title="scrapy" href="modules.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            scrapy
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">scrapy</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">scrapy package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#subpackages">Subpackages</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.commands.html">scrapy.commands package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.contracts.html">scrapy.contracts package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.core.html">scrapy.core package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.downloadermiddlewares.html">scrapy.downloadermiddlewares package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.extensions.html">scrapy.extensions package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.http.html">scrapy.http package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.linkextractors.html">scrapy.linkextractors package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.loader.html">scrapy.loader package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.pipelines.html">scrapy.pipelines package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.selector.html">scrapy.selector package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.settings.html">scrapy.settings package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.spidermiddlewares.html">scrapy.spidermiddlewares package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.spiders.html">scrapy.spiders package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.utils.html">scrapy.utils package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#submodules">Submodules</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.addons.html">scrapy.addons module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.cmdline.html">scrapy.cmdline module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.crawler.html">scrapy.crawler module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.dupefilters.html">scrapy.dupefilters module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.exceptions.html">scrapy.exceptions module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.exporters.html">scrapy.exporters module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.extension.html">scrapy.extension module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.interfaces.html">scrapy.interfaces module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.item.html">scrapy.item module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.link.html">scrapy.link module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.logformatter.html">scrapy.logformatter module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.mail.html">scrapy.mail module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.middleware.html">scrapy.middleware module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.pqueues.html">scrapy.pqueues module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.resolver.html">scrapy.resolver module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.responsetypes.html">scrapy.responsetypes module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.robotstxt.html">scrapy.robotstxt module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.shell.html">scrapy.shell module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.signalmanager.html">scrapy.signalmanager module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.signals.html">scrapy.signals module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.spiderloader.html">scrapy.spiderloader module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.squeues.html">scrapy.squeues module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.statscollectors.html">scrapy.statscollectors module</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#module-contents">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">scrapy</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="modules.html">scrapy</a></li>
+      <li class="breadcrumb-item active">scrapy package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/api/scrapy.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="scrapy-package">
+<h1>scrapy package<a class="headerlink" href="#scrapy-package" title="Link to this heading"></a></h1>
+<section id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Link to this heading"></a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.commands.html">scrapy.commands package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.commands.html#submodules">Submodules</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.commands.bench.html">scrapy.commands.bench module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.commands.check.html">scrapy.commands.check module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.commands.crawl.html">scrapy.commands.crawl module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.commands.edit.html">scrapy.commands.edit module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.commands.fetch.html">scrapy.commands.fetch module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.commands.genspider.html">scrapy.commands.genspider module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.commands.list.html">scrapy.commands.list module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.commands.parse.html">scrapy.commands.parse module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.commands.runspider.html">scrapy.commands.runspider module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.commands.settings.html">scrapy.commands.settings module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.commands.shell.html">scrapy.commands.shell module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.commands.startproject.html">scrapy.commands.startproject module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.commands.version.html">scrapy.commands.version module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.commands.view.html">scrapy.commands.view module</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.commands.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.contracts.html">scrapy.contracts package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.contracts.html#submodules">Submodules</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.contracts.default.html">scrapy.contracts.default module</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.contracts.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.core.html">scrapy.core package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.core.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.core.downloader.html">scrapy.core.downloader package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.core.downloader.html#subpackages">Subpackages</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.core.downloader.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.core.downloader.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.core.html#submodules">Submodules</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.core.engine.html">scrapy.core.engine module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.core.scheduler.html">scrapy.core.scheduler module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.core.scraper.html">scrapy.core.scraper module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.core.spidermw.html">scrapy.core.spidermw module</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.core.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.downloadermiddlewares.html">scrapy.downloadermiddlewares package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.downloadermiddlewares.html#submodules">Submodules</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.downloadermiddlewares.cookies.html">scrapy.downloadermiddlewares.cookies module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.downloadermiddlewares.defaultheaders.html">scrapy.downloadermiddlewares.defaultheaders module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.downloadermiddlewares.downloadtimeout.html">scrapy.downloadermiddlewares.downloadtimeout module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.downloadermiddlewares.httpauth.html">scrapy.downloadermiddlewares.httpauth module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.downloadermiddlewares.httpcache.html">scrapy.downloadermiddlewares.httpcache module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.downloadermiddlewares.httpcompression.html">scrapy.downloadermiddlewares.httpcompression module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.downloadermiddlewares.httpproxy.html">scrapy.downloadermiddlewares.httpproxy module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.downloadermiddlewares.offsite.html">scrapy.downloadermiddlewares.offsite module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.downloadermiddlewares.redirect.html">scrapy.downloadermiddlewares.redirect module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.downloadermiddlewares.retry.html">scrapy.downloadermiddlewares.retry module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.downloadermiddlewares.robotstxt.html">scrapy.downloadermiddlewares.robotstxt module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.downloadermiddlewares.stats.html">scrapy.downloadermiddlewares.stats module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.downloadermiddlewares.useragent.html">scrapy.downloadermiddlewares.useragent module</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.downloadermiddlewares.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.extensions.html">scrapy.extensions package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.extensions.html#submodules">Submodules</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.extensions.closespider.html">scrapy.extensions.closespider module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.extensions.corestats.html">scrapy.extensions.corestats module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.extensions.debug.html">scrapy.extensions.debug module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.extensions.feedexport.html">scrapy.extensions.feedexport module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.extensions.httpcache.html">scrapy.extensions.httpcache module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.extensions.logcount.html">scrapy.extensions.logcount module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.extensions.logstats.html">scrapy.extensions.logstats module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.extensions.memdebug.html">scrapy.extensions.memdebug module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.extensions.memusage.html">scrapy.extensions.memusage module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.extensions.periodic_log.html">scrapy.extensions.periodic_log module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.extensions.postprocessing.html">scrapy.extensions.postprocessing module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.extensions.remote_control.html">scrapy.extensions.remote_control module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.extensions.spiderstate.html">scrapy.extensions.spiderstate module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.extensions.statsmailer.html">scrapy.extensions.statsmailer module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.extensions.telnet.html">scrapy.extensions.telnet module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.extensions.throttle.html">scrapy.extensions.throttle module</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.extensions.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.http.html">scrapy.http package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.http.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.http.request.html">scrapy.http.request package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.http.request.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.http.request.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.http.response.html">scrapy.http.response package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.http.response.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scrapy.http.response.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.http.html#submodules">Submodules</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.http.cookies.html">scrapy.http.cookies module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.http.headers.html">scrapy.http.headers module</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.http.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.linkextractors.html">scrapy.linkextractors package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.linkextractors.html#submodules">Submodules</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.linkextractors.lxmlhtml.html">scrapy.linkextractors.lxmlhtml module</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.linkextractors.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.loader.html">scrapy.loader package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.loader.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.pipelines.html">scrapy.pipelines package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.pipelines.html#submodules">Submodules</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.pipelines.files.html">scrapy.pipelines.files module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.pipelines.images.html">scrapy.pipelines.images module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.pipelines.media.html">scrapy.pipelines.media module</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.pipelines.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.selector.html">scrapy.selector package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.selector.html#submodules">Submodules</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.selector.unified.html">scrapy.selector.unified module</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.selector.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.settings.html">scrapy.settings package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.settings.html#submodules">Submodules</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.settings.default_settings.html">scrapy.settings.default_settings module</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.settings.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.spidermiddlewares.html">scrapy.spidermiddlewares package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.spidermiddlewares.html#submodules">Submodules</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.spidermiddlewares.base.html">scrapy.spidermiddlewares.base module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.spidermiddlewares.depth.html">scrapy.spidermiddlewares.depth module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.spidermiddlewares.httperror.html">scrapy.spidermiddlewares.httperror module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.spidermiddlewares.metacopy.html">scrapy.spidermiddlewares.metacopy module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.spidermiddlewares.referer.html">scrapy.spidermiddlewares.referer module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.spidermiddlewares.start.html">scrapy.spidermiddlewares.start module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.spidermiddlewares.urllength.html">scrapy.spidermiddlewares.urllength module</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.spidermiddlewares.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.spiders.html">scrapy.spiders package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.spiders.html#submodules">Submodules</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.spiders.crawl.html">scrapy.spiders.crawl module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.spiders.feed.html">scrapy.spiders.feed module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.spiders.sitemap.html">scrapy.spiders.sitemap module</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.spiders.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.utils.html">scrapy.utils package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.utils.html#submodules">Submodules</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.asyncgen.html">scrapy.utils.asyncgen module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.asyncio.html">scrapy.utils.asyncio module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.benchserver.html">scrapy.utils.benchserver module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.boto.html">scrapy.utils.boto module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.conf.html">scrapy.utils.conf module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.console.html">scrapy.utils.console module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.curl.html">scrapy.utils.curl module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.datatypes.html">scrapy.utils.datatypes module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.decorators.html">scrapy.utils.decorators module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.defer.html">scrapy.utils.defer module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.deprecate.html">scrapy.utils.deprecate module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.display.html">scrapy.utils.display module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.engine.html">scrapy.utils.engine module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.ftp.html">scrapy.utils.ftp module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.gz.html">scrapy.utils.gz module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.httpobj.html">scrapy.utils.httpobj module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.iterators.html">scrapy.utils.iterators module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.job.html">scrapy.utils.job module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.log.html">scrapy.utils.log module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.misc.html">scrapy.utils.misc module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.ossignal.html">scrapy.utils.ossignal module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.project.html">scrapy.utils.project module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.python.html">scrapy.utils.python module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.reactor.html">scrapy.utils.reactor module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.reactorless.html">scrapy.utils.reactorless module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.request.html">scrapy.utils.request module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.response.html">scrapy.utils.response module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.serialize.html">scrapy.utils.serialize module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.signal.html">scrapy.utils.signal module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.sitemap.html">scrapy.utils.sitemap module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.spider.html">scrapy.utils.spider module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.ssl.html">scrapy.utils.ssl module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.template.html">scrapy.utils.template module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.test.html">scrapy.utils.test module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.trackref.html">scrapy.utils.trackref module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.url.html">scrapy.utils.url module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scrapy.utils.versions.html">scrapy.utils.versions module</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="scrapy.utils.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Link to this heading"></a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.addons.html">scrapy.addons module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.cmdline.html">scrapy.cmdline module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.crawler.html">scrapy.crawler module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.dupefilters.html">scrapy.dupefilters module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.exceptions.html">scrapy.exceptions module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.exporters.html">scrapy.exporters module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.extension.html">scrapy.extension module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.interfaces.html">scrapy.interfaces module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.item.html">scrapy.item module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.link.html">scrapy.link module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.logformatter.html">scrapy.logformatter module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.mail.html">scrapy.mail module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.middleware.html">scrapy.middleware module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.pqueues.html">scrapy.pqueues module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.resolver.html">scrapy.resolver module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.responsetypes.html">scrapy.responsetypes module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.robotstxt.html">scrapy.robotstxt module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.shell.html">scrapy.shell module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.signalmanager.html">scrapy.signalmanager module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.signals.html">scrapy.signals module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.spiderloader.html">scrapy.spiderloader module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.squeues.html">scrapy.squeues module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scrapy.statscollectors.html">scrapy.statscollectors module</a></li>
+</ul>
+</div>
+</section>
+<section id="module-contents">
+<h2>Module contents<a class="headerlink" href="#module-contents" title="Link to this heading"></a></h2>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="modules.html" class="btn btn-neutral float-left" title="scrapy" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="scrapy.commands.html" class="btn btn-neutral float-right" title="scrapy.commands package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2026, Gabriel Ulloa.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

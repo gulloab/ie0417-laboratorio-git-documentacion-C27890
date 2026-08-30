@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$structdetail_1_1output__adapter__protocol.html" title="abstract output adapter interface" alt="" coords="5,72,160,115"/>
+<area shape="rect" id="Node000001" href="$classdetail_1_1output__stream__adapter.html" title="output adapter for output streams" alt="" coords="243,5,394,48"/>
+<area shape="poly" id="edge129_Node000000_Node000001" title=" " alt="" coords="174,65,244,47,240,49,176,70"/>
+<area shape="rect" id="Node000002" href="$classdetail_1_1output__string__adapter.html" title="output adapter for basic_string" alt="" coords="208,72,429,115"/>
+<area shape="poly" id="edge130_Node000000_Node000002" title=" " alt="" coords="175,91,210,92,205,94,176,96"/>
+<area shape="rect" id="Node000003" href="$classdetail_1_1output__vector__adapter.html" title="output adapter for byte vectors" alt="" coords="220,139,417,197"/>
+<area shape="poly" id="edge131_Node000000_Node000003" title=" " alt="" coords="167,117,226,138,221,139,167,123"/>
+</map>

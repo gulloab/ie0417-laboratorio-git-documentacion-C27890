@@ -1,0 +1,9 @@
+<map id="basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType, CustomBaseClass &gt;" name="basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType, CustomBaseClass &gt;">
+<area shape="rect" id="Node000001" title="a class to store JSON values" alt="" coords="612,13,891,119"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,69,154,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,58,160,37,202,22,255,12,309,5,417,4,520,14,615,31,609,32,520,19,417,10,309,11,256,17,204,27,162,42,125,62"/>
+<area shape="rect" id="Node000003" href="$classbasic__json.html" title="a class to store JSON values" alt="" coords="203,127,481,234"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="158,114,205,132,200,133,158,120"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="496,135,609,105,615,104,497,140"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="317,111,327,103,342,101,355,103,365,108,375,128,370,126,361,112,353,108,342,106,329,108,319,115"/>
+</map>
