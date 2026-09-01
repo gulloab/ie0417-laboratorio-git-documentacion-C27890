@@ -1,4 +1,27 @@
 var searchData=
 [
-  ['list_0',['Deprecated List',['../deprecated.html',1,'']]]
+  ['can_20i_20use_20get_20for_20non_20default_20constructible_20non_20copyable_20types_0',['How can I use &lt;span class=&quot;tt&quot;&gt;get()&lt;/span&gt; for non-default constructible/non-copyable types?',['../index.html#autotoc_md27',1,'']]],
+  ['can_20i_20write_20my_20own_20serializer_20advanced_20use_1',['Can I write my own serializer? (Advanced use)',['../index.html#autotoc_md28',1,'']]],
+  ['cbor_20messagepack_20ubjson_20and_20bjdata_2',['Binary formats (BSON, CBOR, MessagePack, UBJSON, and BJData)',['../index.html#autotoc_md30',1,'']]],
+  ['character_20encoding_3',['Character encoding',['../index.html#autotoc_md49',1,'']]],
+  ['class_20data_20type_4',['JSON as a first-class data type',['../index.html#autotoc_md10',1,'']]],
+  ['class_20satisfies_20the_20following_20concept_20requirements_3a_5',['class satisfies the following concept requirements:',['../requirements.html#REQ-JSON-01',1,'The class satisfies the following concept requirements:'],['../requirements.html#REQ-JSON-02',1,'The class satisfies the following concept requirements:']]],
+  ['cmake_6',['CMake',['../index.html#autotoc_md35',1,'']]],
+  ['commas_7',['Trailing commas',['../index.html#autotoc_md51',1,'']]],
+  ['comments_20in_20json_8',['Comments in JSON',['../index.html#autotoc_md50',1,'']]],
+  ['compilers_9',['Supported compilers',['../index.html#autotoc_md33',1,'']]],
+  ['compliance_10',['Standards compliance',['../index.html#autotoc_md48',1,'']]],
+  ['concept_20requirements_3a_11',['concept requirements:',['../requirements.html#REQ-JSON-01',1,'The class satisfies the following concept requirements:'],['../requirements.html#REQ-JSON-02',1,'The class satisfies the following concept requirements:']]],
+  ['config_12',['Pkg-config',['../index.html#autotoc_md41',1,'']]],
+  ['constructible_20non_20copyable_20types_13',['How can I use &lt;span class=&quot;tt&quot;&gt;get()&lt;/span&gt; for non-default constructible/non-copyable types?',['../index.html#autotoc_md27',1,'']]],
+  ['contact_14',['Contact',['../index.html#autotoc_md43',1,'']]],
+  ['containers_15',['Conversion from STL containers',['../index.html#autotoc_md18',1,'']]],
+  ['conversion_16',['Specializing enum conversion',['../index.html#autotoc_md29',1,'']]],
+  ['conversion_20from_20stl_20containers_17',['Conversion from STL containers',['../index.html#autotoc_md18',1,'']]],
+  ['conversions_18',['conversions',['../index.html#autotoc_md22',1,'Arbitrary types conversions'],['../index.html#autotoc_md21',1,'Implicit conversions']]],
+  ['convert_20third_20party_20types_19',['How do I convert third-party types?',['../index.html#autotoc_md26',1,'']]],
+  ['copyable_20types_20',['How can I use &lt;span class=&quot;tt&quot;&gt;get()&lt;/span&gt; for non-default constructible/non-copyable types?',['../index.html#autotoc_md27',1,'']]],
+  ['creating_20json_20objects_20from_20json_20literals_21',['Creating &lt;span class=&quot;tt&quot;&gt;json&lt;/span&gt; objects from JSON literals',['../index.html#autotoc_md9',1,'']]],
+  ['custom_20data_20source_22',['Custom data source',['../index.html#autotoc_md15',1,'']]],
+  ['customers_23',['Customers',['../index.html#autotoc_md31',1,'']]]
 ];

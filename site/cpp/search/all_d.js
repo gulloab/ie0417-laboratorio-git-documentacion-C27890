@@ -1,16 +1,16 @@
 var searchData=
 [
-  ['name_5fseparator_0',['name_separator',['../classdetail_1_1lexer__base.html#add65fa7a85aa15052963809fbcc04540acc3c64f8ae08c00de1b33f19a4d2913a',1,'detail::lexer_base']]],
-  ['negation_1',['negation',['../structdetail_1_1negation.html',1,'detail']]],
-  ['nonesuch_2',['nonesuch',['../structdetail_1_1nonesuch.html',1,'detail']]],
-  ['normalize_3',['normalize',['../structdetail_1_1dtoa__impl_1_1diyfp.html#a5bad735c2cb50b194938a8a89b82f6ed',1,'detail::dtoa_impl::diyfp']]],
-  ['normalize_5fto_4',['normalize_to',['../structdetail_1_1dtoa__impl_1_1diyfp.html#a5a9ce83c6c1663c9aaac7ffd9009b971',1,'detail::dtoa_impl::diyfp']]],
-  ['null_5',['null',['../structjson__sax.html#acbcc09c0ada2782cd73cc4135823181d',1,'json_sax::null()'],['../namespacedetail.html#a917c3efabea8a20dc72d9ae2c673d632a37a6259cc0c1dae299a7866489dff0bd',1,'detail::null']]],
-  ['number_5fbuffer_6',['number_buffer',['../classdetail_1_1serializer.html#ace18a55b8304310fee309d31e54a3e27',1,'detail::serializer']]],
-  ['number_5ffloat_7',['number_float',['../structjson__sax.html#a19eafa3a92fc75e0258a842283396aa9',1,'json_sax::number_float()'],['../namespacedetail.html#a917c3efabea8a20dc72d9ae2c673d632ad9966ecb59667235a57b4b999a649eef',1,'detail::number_float']]],
-  ['number_5ffloat_5ft_8',['number_float_t',['../classbasic__json.html#a80a229dbc84c1334171ce9c49c873c56',1,'basic_json']]],
-  ['number_5finteger_9',['number_integer',['../structjson__sax.html#a46cc306b7677553d8f6bd8c9592eb1bd',1,'json_sax::number_integer()'],['../namespacedetail.html#a917c3efabea8a20dc72d9ae2c673d632a5763da164f8659d94a56e29df64b4bcc',1,'detail::number_integer']]],
-  ['number_5finteger_5ft_10',['number_integer_t',['../classbasic__json.html#aba48b0bdee31228a4e19b7c040b6d2a5',1,'basic_json']]],
-  ['number_5funsigned_11',['number_unsigned',['../structjson__sax.html#a32f8a32794cb384f0de3d3a96a6bb696',1,'json_sax::number_unsigned()'],['../namespacedetail.html#a917c3efabea8a20dc72d9ae2c673d632adce7cc8ec29055c4158828921f2f265e',1,'detail::number_unsigned']]],
-  ['number_5funsigned_5ft_12',['number_unsigned_t',['../classbasic__json.html#ae8505b599e706768a1e0bd6718cc7117',1,'basic_json']]]
+  ['m_5fit_0',['m_it',['../classdetail_1_1iter__impl.html#a79b7b8c6b778d9f7e76b086b45d9ea2e',1,'detail::iter_impl']]],
+  ['m_5fvalue_1',['m_value',['../classbasic__json.html#acd0f167153f047a246b51858d7c921b8',1,'basic_json']]],
+  ['macros_2',['macros',['../index.html#autotoc_md25',1,'Example usage of macros'],['../index.html#autotoc_md24',1,'Simplify your life with macros']]],
+  ['make_5fvoid_3',['make_void',['../structdetail_1_1make__void.html',1,'detail']]],
+  ['managers_4',['Package Managers',['../index.html#autotoc_md40',1,'']]],
+  ['max_5fsize_5',['max_size',['../classbasic__json.html#a380f98b02e7d50cf28af056a6ad8ffe6',1,'basic_json']]],
+  ['memory_20release_6',['Memory Release',['../index.html#autotoc_md53',1,'']]],
+  ['merge_20patch_7',['JSON Merge Patch',['../index.html#autotoc_md20',1,'']]],
+  ['merge_5fpatch_8',['merge_patch',['../classbasic__json.html#a8676ac2433fe299b8d420f00a0741395',1,'basic_json']]],
+  ['messagepack_20ubjson_20and_20bjdata_9',['Binary formats (BSON, CBOR, MessagePack, UBJSON, and BJData)',['../index.html#autotoc_md30',1,'']]],
+  ['meta_10',['meta',['../classbasic__json.html#a7b435c2ed2db99cb1daa78ae3c6c4580',1,'basic_json']]],
+  ['mul_11',['mul',['../structdetail_1_1dtoa__impl_1_1diyfp.html#a046c61f2c13411677eedfb5b9b7a8226',1,'detail::dtoa_impl::diyfp']]],
+  ['my_20own_20serializer_20advanced_20use_12',['Can I write my own serializer? (Advanced use)',['../index.html#autotoc_md28',1,'']]]
 ];

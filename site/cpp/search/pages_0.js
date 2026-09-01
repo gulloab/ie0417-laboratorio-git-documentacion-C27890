@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['class_20satisfies_20the_20following_20concept_20requirements_3a_0',['class satisfies the following concept requirements:',['../requirements.html#REQ-JSON-01',1,'The class satisfies the following concept requirements:'],['../requirements.html#REQ-JSON-02',1,'The class satisfies the following concept requirements:']]],
-  ['concept_20requirements_3a_1',['concept requirements:',['../requirements.html#REQ-JSON-01',1,'The class satisfies the following concept requirements:'],['../requirements.html#REQ-JSON-02',1,'The class satisfies the following concept requirements:']]]
+  ['_3alabel_3a_20named_20sponsors_0',[':label: Named Sponsors',['../index.html#autotoc_md3',1,'']]],
+  ['_3araising_5fhand_3a_20priority_20sponsor_1',[':raising_hand: Priority Sponsor',['../index.html#autotoc_md2',1,'']]]
 ];
