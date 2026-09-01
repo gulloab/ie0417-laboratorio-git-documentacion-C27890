@@ -100,8 +100,20 @@ ya da resultado; Sphinx necesita más piezas coordinadas]
 [tu respuesta]
 
 **¿Qué problemas del código quedaron expuestos?**
-[por ejemplo: la cantidad de miembros internos sin documentar en detail::,
-o los imports pesados de scrapy que complican autodoc]
+### Incidencia real encontrada durante la generación
+
+Al publicar el sitio en Netlify se detectó que la página principal
+(`index.html`) se generaba vacía, mostrando solo un enlace de rastreo
+(`doxygen_crawl.html`) sin ningún contenido visible. Al revisar
+`doxygen/build.log` se encontró la causa exacta:
+Doxygen exige que cualquier archivo referenciado en
+`USE_MDFILE_AS_MAINPAGE` esté **también** incluido explícitamente en
+`INPUT` — no basta con apuntarlo solo desde `USE_MDFILE_AS_MAINPAGE`. La
+configuración original solo listaba `include/nlohmann` en `INPUT`, así
+que Doxygen ubicaba el README pero nunca procesaba su contenido como
+texto de la página principal.
+
+**Solución aplicada:** se modificó `INPUT` para incluir ambos
 
 **¿Qué cambios integrarías al flujo de desarrollo?**
 [ej.: generar documentación en CI en cada push a main]
