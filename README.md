@@ -10,7 +10,7 @@
 
 ## Enlaces del Proyecto y Documentaciones
 
-* **URL del repositorio de entrega:** [https://github.com/tu-usuario/tu-repositorio](https://github.com/tu-usuario/tu-repositorio)
+* **URL del repositorio de entrega:** [[https://github.com/gulloab/ie0417-laboratorio-git-documentacion-C27890/edit/main/README.md](https://github.com/gulloab/ie0417-laboratorio-git-documentacion-C27890/edit/main/README.md)
 * **URL pública del sitio:** [https://tu-usuario.github.io/tu-repositorio](https://tu-usuario.github.io/tu-repositorio)
 * **Documentación oficial de C++:** [https://en.cppreference.com/w/](https://en.cppreference.com/w/)
 * **Documentación oficial de Python:** [https://docs.python.org/3/](https://docs.python.org/3/)
